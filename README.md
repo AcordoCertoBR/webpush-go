@@ -1,12 +1,12 @@
 # webpush-go
-
+##Original package found in (github.com/SherClockHolmes/webpush-go)[github.com/SherClockHolmes/webpush-go]
 [![Go Report Card](https://goreportcard.com/badge/github.com/SherClockHolmes/webpush-go)](https://goreportcard.com/report/github.com/SherClockHolmes/webpush-go)
 [![GoDoc](https://godoc.org/github.com/SherClockHolmes/webpush-go?status.svg)](https://godoc.org/github.com/SherClockHolmes/webpush-go)
 
 Web Push API Encryption with VAPID support.
 
 ```bash
-go get -u github.com/SherClockHolmes/webpush-go
+go get -u github.com/AcordoCertoBR/webpush-go
 ```
 
 ## Example
@@ -19,7 +19,7 @@ package main
 import (
 	"encoding/json"
 
-	webpush "github.com/SherClockHolmes/webpush-go"
+	webpush "github.com/AcordoCertoBR/webpush-go"
 )
 
 func main() {
